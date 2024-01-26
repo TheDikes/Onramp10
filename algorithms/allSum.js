@@ -9,7 +9,7 @@
 // Return Value
 // Number - The sum of all length of words greater than the minimum
 
-function allSum (words, min){
+/*function allSum (words, min){
     return words.reduce((sum, word) => {
         if(word.length > min){
             sum += word.length;
@@ -17,7 +17,7 @@ function allSum (words, min){
         return sum;
     }, 0);
 }
-
+*/
 // OR
 function allSum(words, min){
     let sum = 0;
@@ -29,9 +29,11 @@ function allSum(words, min){
     return sum;
 }
 
+console.log(allSum(['c','y','n','t','h','i','a', 'Ella',]),1)
+
 // OR
 
-function allSum(words, min) {
+/*function allSum(words, min) {
     // if the length of the words is less than min, return 0
     if (words.length < min) {
       return 0;
@@ -39,3 +41,5 @@ function allSum(words, min) {
     // you then return the sum of the words that are greater than the minimum word, using the .reduce() method
     return words.reduce((acc, word) => acc + word.length, 0);
 }
+*/
+

@@ -48,3 +48,5 @@ function camelCase(s){
     }
     return result;
 }
+console.log(camelCase('My'))
+console.log(camelCase('camel'))

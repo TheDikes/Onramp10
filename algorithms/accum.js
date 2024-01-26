@@ -20,7 +20,7 @@ function accum(str){
 
 // OR (in class solution)
 
-function accum(str){
+/*function accum(str){
     let res = [];
     for(let i=0; i<str.length; i++){
         res.push(str[i].toUpperCase());
@@ -30,3 +30,6 @@ function accum(str){
     const joinedStr = res.join("");
     return joinedString.subString(0, joinedString.length -1);
 }
+*/
+
+console.log(accum("RqaEzty"))

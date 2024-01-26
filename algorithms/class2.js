@@ -24,7 +24,7 @@ function factorial(n) {
 
 factorial(n);
 
-// 5. Hackerrank - CamekCase question
+// 5. Hackerrank - CamelCase question
 // There is a sequence of words in CamelCase as a string of letters, s, having the following properties:
 
 // It is a concatenation of one or more words consisting of English letters.

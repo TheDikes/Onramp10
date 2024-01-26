@@ -9,7 +9,10 @@ function isPalindrome(str){
     }
 }
 
-// Complete the solution so that it reverses the string passes into it.
+// Complete the solution so that it reverses the string passed into it.
 function reverse(str){
     return str.split("").reverse(),join("");
 }
+
+
+console.log(isPalindrome("madam"))
