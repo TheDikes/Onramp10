@@ -4,7 +4,7 @@ const sortedArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
 
 function binarySearch(arr, target){
     let start = 0;
-    let end = arr.length-1;
+    let end = arr.length - 1;
 
     while(start <= end){
         let mid = Math.floor((start + end) / 2)
@@ -23,4 +23,5 @@ console.log(binarySearch([3,4,5,6,7], 5))
 console.log(binarySearch([3,4,5,6,7], 9))
 console.log(binarySearch([3,4,5,6,7], 3))
 
-// Time complexity is O(log n)
+// the number of iterations required to find the target element is 
+// proportional to the logarithm of the size of the input array, making the time complexity O(log n).
