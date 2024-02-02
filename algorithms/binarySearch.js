@@ -22,3 +22,5 @@ function binarySearch(arr, target){
 console.log(binarySearch([3,4,5,6,7], 5))
 console.log(binarySearch([3,4,5,6,7], 9))
 console.log(binarySearch([3,4,5,6,7], 3))
+
+// Time complexity is O(log n)
